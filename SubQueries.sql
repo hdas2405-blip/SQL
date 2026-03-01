@@ -43,9 +43,7 @@ INSERT INTO Sales (sale_id, emp_id, sale_amount, sale_date) VALUES
 (209, 109, 3900, '2025-02-20'),
 (210, 110, 7200, '2025-03-01');
  
- select * from employee;
-
-#Q1.Retrieve the names of employees who earn more than the average salary of all employees?
+ #Q1.Retrieve the names of employees who earn more than the average salary of all employees?
 
 SELECT name 
 FROM Employee 
